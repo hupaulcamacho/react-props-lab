@@ -1,0 +1,49 @@
+.donations-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.header {
+    padding: 2em;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+}
+.recent-donations {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    padding-left: 2em;
+    margin: 2em;
+    margin-right: none;
+    background-color: rgb(206, 206, 206);
+}
+
+.progress-and-form {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    margin: 2em;
+}
+
+.current-progress {
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    padding: 1.5em;
+    font-size: 14px
+}
+
+button {
+    font-size: 14px;
+    color: white;
+    background-color: rgb(8, 184, 35);
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 0.5em;
+}
