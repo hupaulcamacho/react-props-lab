@@ -13,10 +13,11 @@ const DonationProgress = (props) => {
         width: '100%',
         'background-color': 'rgb(186, 186, 186)',
     }
+    
     let greenBarStyle = {
-            height: '50px',
-            width: `${percentage}%`,
-            'background-color': 'rgb(8, 184, 35)'
+        height: '50px',
+        width: `${percentage}%`,
+        'background-color': 'rgb(8, 184, 35)'
     }
     return (
         <div className='donation-progress'>

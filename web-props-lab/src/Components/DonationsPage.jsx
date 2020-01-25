@@ -82,7 +82,7 @@ class DonationsPage extends React.Component {
     }
     
     render () {
-        let { donations, goal, name, message, amount} = this.state
+        let { donations, goal, name, message, amount } = this.state
         return (
             <div className='donations-page'>
                 <DonationsList 
