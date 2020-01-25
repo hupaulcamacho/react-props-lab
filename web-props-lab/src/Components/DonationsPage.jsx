@@ -86,7 +86,7 @@ class DonationsPage extends React.Component {
         return (
             <div className='donations-page'>
                 <DonationsList 
-                donations={donations}
+                    donations={donations}
                 />
                 <div className='progress-and-form'>
                     <DonationProgress 
@@ -103,7 +103,6 @@ class DonationsPage extends React.Component {
                     message={message}
                     />
                 </div>
-                
             </div>
         )
     }    
